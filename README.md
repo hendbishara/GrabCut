@@ -1,6 +1,6 @@
 # GrabCut Algorithm Implementation
 
-# collaborators: Hend Bishara, Nour Atieh 
+## collaborators: Hend Bishara, Nour Atieh 
 
 ## Overview
 
@@ -44,3 +44,30 @@ The script outputs:
 ## References
 - Rother, C., Kolmogorov, V., & Blake, A. (2004). *GrabCut: Interactive foreground extraction using iterated graph cuts.* ACM Transactions on Graphics (TOG), 23(3), 309-314.
 
+# Poisson Blending Implementation
+
+## Overview
+
+This repository also contains an implementation of the Poisson blending technique, a seamless image blending algorithm that solves the Poisson equation to achieve natural-looking composite images.
+
+## Features
+
+Seamless Blending: Combines source and target images while maintaining consistency in color and texture.
+
+Custom Masks: Supports user-defined masks for selective blending.
+
+Flexible Centering: Allows padding and centering of the source image within the target image.
+
+## Usage
+
+### Command-Line Arguments
+
+--src_path: Path to the source image.
+
+--mask_path: Path to the mask image.
+
+--tgt_path: Path to the target image.
+
+## Output
+
+The output image will be saved in the blended directory as blended_image.png.
